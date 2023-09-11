@@ -54,7 +54,7 @@
 
       <article>
         <h2>General Inquiries</h2>
-        <form action="confirmation.html">
+        <form action="confirmation.html" name="contactform">
           <label for="name">Name : *</label><br />
           <input required type="text" id="name" name="name" />
           <br /><br />
@@ -75,6 +75,7 @@
           ></textarea>
           <br /><br />
           <input type="submit" />
+          <button type="reset" onclick="Clearform()">Clear</button>
         </form>
       </article>
     </main>
@@ -83,5 +84,8 @@
       <a href="https://www.amazon.com">Amazon</a>
       <a href="https://www.ebay.com" target="_blank">Ebay</a>
     </footer>
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/site.js"></script>
   </body>
 </html>
