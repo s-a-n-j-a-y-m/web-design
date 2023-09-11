@@ -1,64 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-</head>
-<body>
-    <a href="index.html">Home</a>
+    <link rel="stylesheet" href="stylesheets/site.css" />
+  </head>
+  <body>
+    <header>
+      <div id="banner">
+        <p>Notification</p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
         <a href="about_us.html">About Us</a>
         <a href="contact_us.html">Contact Us</a>
-    <h1 style="color: cornflowerblue;">Contact Us</h1>
-    <hr/>
-
-    <h2>Locations</h2>
-    <table>
-        <tr>
+      </nav>
+    </header>
+    <main>
+      <h2>Locations</h2>
+      <article>
+        <table>
+          <tr>
             <th>Logo</th>
             <th>Location</th>
             <th>Opening hours</th>
             <th>Email Address</th>
             <th>Ph no</th>
-        </tr>
-        <tr>
-            <td><img src="" alt="Logo 1"/></td>
+          </tr>
+          <tr>
+            <td><img class="logo" src="images/cat.jpg" alt="Logo 1" /></td>
             <td>Mandeville</td>
             <td>9AM - 5PM</td>
             <td>mabdevillebranch@gmail.com</td>
             <td>123456789</td>
-        </tr>
-        <tr>
-            <td><img src="" alt="Logo 1"/></td>
+          </tr>
+          <tr>
+            <td><img class="logo" src="images/cat.jpg" alt="Logo 1" /></td>
             <td>Kingston</td>
             <td>9AM - 5PM</td>
             <td>kingstonbranch@gmail.com</td>
             <td>113456780</td>
-        </tr>
-        <tr>
-            <td><img src="" alt="Logo 1"/></td>
+          </tr>
+          <tr>
+            <td><img class="logo" src="images/cat.jpg" alt="Logo 1" /></td>
             <td>Montego Bay</td>
             <td>9AM - 5PM</td>
             <td>mobaybranch@gmail.com</td>
             <td>1113456789</td>
-        </tr>
-    </table>
-    <h2>General Inquiries</h2>
-    <form action="confirmation.html">
-        <label for="name">Name : *</label><br/>
-        <input required type="text" id="name" name="name"/>
-        <br/><br/>
-        <label for="email">Email : *</label><br/>
-        <input required type="email" id="email" name="emailadd"/>
-        <br/><br/>
-        <label for="employed">Are you employed?</label><br/>
-        <input type="radio" value="Y" name="employed"/> Yes
-        <input type="radio" value="N" name="employed"/> No
-        <br/><br/>
-        <label for="inquiry">State your inquiry*</label><br/>
-        <textarea  required cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry"></textarea>
-        <br/><br/>
-        <input type="submit"/>
-    </form>
-</body>
+          </tr>
+        </table>
+      </article>
+
+      <article>
+        <h2>General Inquiries</h2>
+        <form action="confirmation.html">
+          <label for="name">Name : *</label><br />
+          <input required type="text" id="name" name="name" />
+          <br /><br />
+          <label for="email">Email : *</label><br />
+          <input required type="email" id="email" name="emailadd" />
+          <br /><br />
+          <label for="employed">Are you employed?</label><br />
+          <input type="radio" value="Y" name="employed" /> Yes
+          <input type="radio" value="N" name="employed" /> No <br /><br />
+          <label for="inquiry">State your inquiry*</label><br />
+          <textarea
+            required
+            cols="50"
+            rows="10"
+            maxlength="150"
+            id="inquiry"
+            name="inquiry"
+          ></textarea>
+          <br /><br />
+          <input type="submit" />
+        </form>
+      </article>
+    </main>
+
+    <footer>
+      <a href="https://www.amazon.com">Amazon</a>
+      <a href="https://www.ebay.com" target="_blank">Ebay</a>
+    </footer>
+  </body>
 </html>
